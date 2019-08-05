@@ -37,10 +37,17 @@ function longPlaneteerCalls(words) {
 
 function findTheCheese(foods) {
   for (var i = 0; i < foods.length; i++){
-    if (foods[i] === "cheddar" || foods[i] === "gouda" || foods[i] === "camembert"){
+    if (foods[i] === "cheddar" || foods[i] === "gouda" || foods[i] === "camembert" || foods[i] === "swiss" ||  foods[i] === "blue cheese"){
       return foods[i]    
       //checks array for cheese - || means "or"
     }
   }
   return "no cheese!"
 }
+
+function wordsWithB(words) {
+  /*takes an array of words 
+    returns an array of words from the input that start w/
+    */  
+}
+

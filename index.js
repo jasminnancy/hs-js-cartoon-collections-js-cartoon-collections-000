@@ -28,10 +28,10 @@ function longPlaneteerCalls(words) {
   for (var i = 0; i < words.length; i++){
     if (words[i].length > 4) {
       return true
-      //checks to see if any of the words are 4+ characters
+      //checks to see if any of the words are > 4 characters
     }
   return false
-  //if none of them are 4+, it returns false
+  //if none of them are > 4, it returns false
   }
 }
 

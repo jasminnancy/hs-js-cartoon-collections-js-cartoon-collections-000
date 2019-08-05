@@ -56,4 +56,4 @@ function wordsWithB(words) {
 }
   /*takes an array of words 
     returns an array of words from the input that start w/ B
-    */  
+  */  

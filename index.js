@@ -47,7 +47,11 @@ function findTheCheese(foods) {
 
 function wordsWithB(words) {
   /*takes an array of words 
-    returns an array of words from the input that start w/
+    returns an array of words from the input that start w/ B
     */  
+    for (var i = 0; i < words.length; i++){
+      if (words[i //checking for 0, 1])
+    
+    }
 }
 
